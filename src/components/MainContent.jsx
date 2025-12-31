@@ -56,13 +56,72 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '30 April, 2022', event: 'The day you texted me, something beautiful began—and it hasn’t stopped since', emoji: '💬' },
-                    { date: '14 June, 2022', event: 'The day you accepted my love and took me as your own', emoji: '❤️' },
-                    { date: '7 Feb, 2025', event: 'The day we saw each other through a screen', emoji: '💻' },
-                    { date: '18 Mar, 2025', event: 'We finally met, shared our first kiss, and lost ourselves in a movie', emoji: '🎬💋' },
-                    { date: '1 May, 2025', event: 'Our first trip together… we shared not just a place, but a part of ourselves', emoji: '✈️'},
-                    { date: '.. ..., 2025', event: '..waiting for the day we start living together and you never let go of my hand', emoji: '👫' },
-                ]
+    {
+        date: '30 April, 2022',
+        event: 'The day you texted me — something beautiful began, and it never stopped growing',
+        emoji: '💬'
+    },
+    {
+        date: '14 June, 2022',
+        event: 'The day you accepted my love and chose me as yours',
+        emoji: '❤️'
+    },
+    {
+        date: '7 Feb, 2025',
+        event: 'The day we saw each other through a screen, hearts closer than ever',
+        emoji: '💻'
+    },
+    {
+        date: '18 Mar, 2025',
+        event: 'We finally met — our first kiss, a movie, and losing ourselves in the moment',
+        emoji: '🎬💋'
+    },
+    {
+        date: '1 May, 2025',
+        event: 'Our first trip together — sharing not just a place, but parts of ourselves',
+        emoji: '✈️'
+    },
+    {
+        date: '15 June, 2025',
+        event: 'Our anniversary at BBQ Nation — you walked in wearing that stunning white dress and stole my breath',
+        emoji: '🤍🔥'
+    },
+    {
+        date: '8 July, 2025',
+        event: 'Our first stay at Pinakin — cooking together, laughing, and losing ourselves in each other',
+        emoji: '🏠🍳💞'
+    },
+    {
+        date: '16 August, 2025',
+        event: 'Little Zoo in Nagpur and a movie at Eternity Mall — simple moments, perfect company',
+        emoji: '🐾🎥'
+    },
+    {
+        date: '2 September, 2025',
+        event: 'Our first long journey together — I loved every second, even if I messed up your birthday',
+        emoji: '🚌💔🎂'
+    },
+    {
+        date: '2 October, 2025',
+        event: 'Chennai again — plans ruined, but I still got to show you my world',
+        emoji: '🌊🏙️'
+    },
+    {
+        date: '21 October, 2025',
+        event: 'Diwali together — not perfect, not grand, but special because it was with you',
+        emoji: '🪔✨'
+    },
+    {
+        date: '19 November, 2025',
+        event: 'Pinakin again — I cooked everything for you this time, even the flops',
+        emoji: '🍲😄'
+    },
+    {
+        date: '24 December, 2025',
+        event: 'Your Christmas surprise — the brown jacket, the peace, the first stay that felt like pure rest',
+        emoji: '🎄🧥💝'
+    }
+]
                     .map((item, index) => (
                         <motion.div
                             key={index}
